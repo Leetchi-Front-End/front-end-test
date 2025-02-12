@@ -18,8 +18,12 @@ le composant devra afficher les données suivantes :
 - created (date) au format `DD/MM/YYYY`
 - l'image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/2560px-Star_Wars_Logo.svg.png au **format carré**.
 - un lien redirigant vers la proriété `url`
+- un tag pour le sexe, la couleur de cheveux et celle des yeux
 
 exemple de design attendu: ![](https://raw.githubusercontent.com/Leetchi-Front-End/front-end-test/master/wiki/card-example.png)
+
+Figma: https://www.figma.com/design/pfqn9okLgjNhq5nfPhOfEY/Test?node-id=0-1&p=f&t=84LrHtDecnq1JDlv-0
+mdp : leetchi2025
 
 ### Objectif #2 (API CALL) 30 min
 
@@ -27,6 +31,7 @@ exemple de design attendu: ![](https://raw.githubusercontent.com/Leetchi-Front-E
 
 La liste de résultats doit s'afficher, chaque item doit être en rendu avec le composant que vous avez créé pendant l'objectif 1
 
+https://swapi.dev/documentation#search
 
 ### Obectif 3 (JS/TS - PAGINATION) 20 min
 
