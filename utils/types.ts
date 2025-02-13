@@ -1,32 +1,24 @@
 /**
  * https://swapi.dev/api/
  */
-export interface SwapiPerson {
+export interface Pokemon {
     name: string
-    mass: string
-    height: string
-    hair_color: string
-    skin_color: string
-    eye_color: string
-    birth_year: string
-    gender: string
-    homeworld: string
-    /**
-     * Array of url
-     */
-    films: string[]
-    species: string[]
-    vehicles: string[]
-    starships: string[]
-    created: string
-    edited: string
-    url: string
+    height: number
+    weight: number
+    stats: {
+        base_stat: number
+        effort: number
+        stat: {
+            name: string
+            url: string
+        }
+    }[]
 }
 
 
-export interface SwapiPaginated<T extends any[]> {
+export interface Paginated<T> {
     count: number
     next: string | null
     previous: string | null
-    results: T
+    results: T[]
 }

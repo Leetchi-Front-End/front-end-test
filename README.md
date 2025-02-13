@@ -13,12 +13,9 @@ Remplacer le contenu du JSON sur la page par un composant de votre création.
 
 le composant devra afficher les données suivantes : 
 - name
-- height
-- gender
-- created (date) au format `DD/MM/YYYY`
-- l'image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/2560px-Star_Wars_Logo.svg.png au **format carré**.
-- un lien redirigant vers la proriété `url`
-- un tag pour le sexe, la couleur de cheveux et celle des yeux
+- la liste des stats de base
+- le type, la ttaille et le poids en tags
+- un boutton see online qui renvoit vers https://pokeapi.co/
 
 exemple de design attendu: ![](https://raw.githubusercontent.com/Leetchi-Front-End/front-end-test/master/wiki/card-example.png)
 
@@ -27,7 +24,7 @@ mdp : leetchi2025
 
 ### Objectif #2 (API CALL) 30 min
 
-à l'aide de l'api [swapi.dev](https://swapi.dev/), utiliser l'input `#search` afin de créer un champ de recherche affichant une liste de personnages, ou un message "Aucun résultat trouvé pour "XXX" (XXX étant la valeur de la recherche). L'utilisateur doit être capable d'utiliser la touche **enter** déclencher une recherche.
+à l'aide de l'api https://pokeapi.co/, utiliser l'input `#search` afin de créer un champ de recherche affichant une liste de pokemon, ou un message "Aucun résultat trouvé pour "XXX" (XXX étant la valeur de la recherche). L'utilisateur doit être capable d'utiliser la touche **enter** déclencher une recherche.
 
 La liste de résultats doit s'afficher, chaque item doit être en rendu avec le composant que vous avez créé pendant l'objectif 1
 
