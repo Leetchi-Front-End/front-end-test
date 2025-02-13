@@ -14,7 +14,7 @@ Remplacer le contenu du JSON sur la page par un composant de votre création.
 le composant devra afficher les données suivantes : 
 - name
 - la liste des stats de base
-- le type, la ttaille et le poids en tags
+- le type, la taille et le poids en tags
 - un boutton see online qui renvoit vers https://pokeapi.co/
 
 exemple de design attendu: ![](https://raw.githubusercontent.com/Leetchi-Front-End/front-end-test/master/wiki/card-example.png)
@@ -28,11 +28,9 @@ mdp : leetchi2025
 
 La liste de résultats doit s'afficher, chaque item doit être en rendu avec le composant que vous avez créé pendant l'objectif 1
 
-https://swapi.dev/documentation#search
-
 ### Obectif 3 (JS/TS - PAGINATION) 20 min
 
-Certaines recherches ont un grand nombre de résultats qui nécessite d'implémenter une pagination.
+Certaines recherches ont un grand nombre de résultats qui nécessite d'implémenter une pagination. La pagination se fait en offset.
 exemple de query: `"a"`
 
 Si une recherche contient plus de 10 items, afficher un bouton "Afficher plus" après votre liste d'items. Au click de bouton afficher la prochaine liste d'éléments avec le composant que vous avez créé pendant l'objectif 1.
