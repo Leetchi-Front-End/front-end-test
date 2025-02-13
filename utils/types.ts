@@ -13,6 +13,10 @@ export interface Pokemon {
             url: string
         }
     }[]
+    sprites: { [k: string]: string | null, }
+    types: {
+        slot: number, type: { name: string, url: string }
+    }[]
 }
 
 

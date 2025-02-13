@@ -14,7 +14,7 @@ Remplacer le contenu du JSON sur la page par un composant de votre création.
 le composant devra afficher les données suivantes : 
 - name
 - la liste des stats de base
-- le type, la taille et le poids en tags
+- les types, la taille et le poids en tags
 - un boutton see online qui renvoit vers https://pokeapi.co/
 
 exemple de design attendu: ![](https://raw.githubusercontent.com/Leetchi-Front-End/front-end-test/master/wiki/card-example.png)
